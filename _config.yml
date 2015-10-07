@@ -1,0 +1,106 @@
+
+# Site settings
+
+url: "http://nongmocai.github.io"
+baseurl: ""
+google-tracking-id: "UA-35880426-3"
+
+#############
+# HTML Head #
+#############
+
+author: "Nongmo Cai"
+lang: "en"
+title: "Momo"
+favicon: "/img/favicon.ico"
+description: "Blog of NongMo Cai, UX Designer."
+keywords: "UX,Nongmo,momo"
+
+################
+# Intro layout #
+################
+
+black-favicon: "/img/black-lab-glass.ico"
+background-img: "../img/goldenbridge.jpg"
+me-img: "/img/me.jpg"
+
+########
+# Blog #
+########
+
+post-preview-words: 128
+
+paginate: 5
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+disqus-shortname: "nongmo"
+
+###############
+# Life Events #
+###############
+
+events:
+  - image: "/img/career/ericsson.jpg"
+    date: "October 2012 - Today"
+    description: "UX Designer @ Ericsson Mobile Data Application Technology R&D"
+  - image: "/img/career/samsung.png"
+    date: "April 2012 – July 2012"
+    description: "Production Designer @ Samsung SISA UXCA/Secure talent"
+  - image: "/img/career/STU.jpg"
+    date: "October 2011 - September 2012"
+    description: "Master's student/ UI designer @ San Francisco State University DAI department"
+
+# First image of the Career timeline
+career-img: "/img/career/default.jpg"
+
+##################
+# Contact layout #
+##################
+
+email: "Cainongmo@gmail.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "github"
+    url: "https://github.com/nongmocai"
+  - title: "linkedin"
+    url: "https://no.linkedin.com/in/NongmoCai"
+  - title: "twitter"
+    url: "https://twitter.com/NongmoCai"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: "/img/labtocat.png"
+
+################################################################################
+
+# Tread carefully if you want to change the variables bellow this point!
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Works: 'works'
+  Career: 'career'
+  Contact: 'contact'
+
+# Pagination path
+paginate_path: "blog/page:num"
+
+# Enable minification SASS
+sass:
+  style: compressed
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]
