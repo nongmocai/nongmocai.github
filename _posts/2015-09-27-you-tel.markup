@@ -1,0 +1,55 @@
+---
+layout: post
+section-type: post
+title: "You-tel for MBC2013"
+category: works
+cover: '/img/posts/youtel/cover.png'
+introduction: "This was a demo for the 2013MCW in Barcelona to showcase the capabilities of Ericsson’s software via a fake product.
+Throughout the process, I collaborated with an interaction designer, a visual designer, a demo manager and a team of engineers to deliver the final demo."
+---
+## You-tel(Ericsson)
+## You-tel(Ericsson)
+
+My role: Interaction/UI designer
+ 
+ 
+This was a demo for the 2013MCW in Barcelona to showcase the capabilities of Ericsson’s software via a fake product.
+Throughout the process, I collaborated with an interaction designer, a visual designer, a demo manager and a team of engineers to deliver the final demo.
+
+### Changing design details based on status
+
+The design details of the pages changes depending on the state of the network and also the state of the user (not logged in, logged in and premium user). This design needs to tell the story of an user using the app to enjoy high quility streaming experience。
+
+<img class="img-responsive" src="/img/posts/youtel/design.png" alt="parts">
+
+### Sketch out the layouts
+
+Once the concept was settled, it was the time to sketch out the rough process of how a football fan would interact with the app. Luckily we did have a few football fans working with us, a couple of interviews were conducted to understand their expectations and pain points when using sports apps.
+
+<img class="img-responsive" src="/img/posts/youtel/sketch.png" alt="parts">
+
+### Going on to drawing wireframes
+
+The whole process was displayed in detailed wireframes created by the prototyping software – Balsamiq, pages included splash screens, home page, stat, video page, etc. The pages acted as a ground for the stakeholders to review the whole process in details, and to generate debates on how content should be organized.
+
+<img class="img-responsive" src="/img/posts/youtel/wireframe.png" alt="parts">
+
+### Interaction specs
+
+Again, I used Balsamiq to create the basic interaction flows between the linked pages. The more complicated interaction such as the expansion of the panel when upgrade is clicked was created in different pages to showcase the before and after result. The goal was to ensure that the developers fully understood how the elements on the GUI changed when certain action was made.
+
+### Final implementation
+
+The design was to give the app a final look and feel to be shown at the demo.   
+
+<img class="img-responsive" src="/img/posts/youtel/final1.png" alt="parts">
+
+<img class="img-responsive" src="/img/posts/youtel/final2.png" alt="parts">
+
+<img class="img-responsive" src="/img/posts/youtel/final3.png" alt="parts">
+
+<img class="img-responsive" src="/img/posts/youtel/final4.png" alt="parts">
+
+<img class="img-responsive" src="/img/posts/youtel/final5.png" alt="parts">
+
+<img class="img-responsive" src="/img/posts/youtel/final6.png" alt="parts">
