@@ -1,7 +1,3 @@
-![Build Status](https://travis-ci.org/PanosSakkos/panossakkos.github.io.svg?branch=master)
+我慢慢觉得自己其实很自私，我回来对你来说是一种伤害，对不起。
 
-# { Panos Sakkos }
-
-Website and Blog of [Panos Sakkos](http://panossakkos.github.io), built with [jekyll](jekyllrb.com)
-
-Theme: [Personal Jekyll Theme](https://github.com/PanosSakkos/personal-jekyll-theme)
+做了这个作品集网站，也许你不满意，我会尽力地去改，也许这是我唯一能为你做的事情。
