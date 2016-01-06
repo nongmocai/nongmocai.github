@@ -1,3 +1,6 @@
-我慢慢觉得自己其实很自私，我回来对你来说是一种伤害，对不起。
 
-做了这个作品集网站，也许你不满意，我会尽力地去改，也许这是我唯一能为你做的事情。
+NongMo Cai
+
+Website and Blog of [NongMoCai](http://nongmocai.github.io), built with [jekyll](jekyllrb.com)
+
+http://skanpo.com/
