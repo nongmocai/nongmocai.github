@@ -90,9 +90,10 @@ social:
 # In the default page it will point to the preview of the last post
 
 pages_list:
+  Home: 'home'
   About: 'about'
+  History: 'history'
   Works: 'works'
-  Career: 'career'
   Contact: 'contact'
 
 # Pagination path

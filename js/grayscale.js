@@ -11,7 +11,62 @@ $(window).scroll(function() {
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
+    fadeleft();
+    faderight();
 });
+
+function fadeleft() {
+   $('.fade-left').each(function() {
+     /* Check the location of each desired element */
+     var objectBottom = $(this).offset().top + $(this).outerHeight();
+     var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+
+     /* If the object is completely visible in the window, fade it in */
+     if (objectBottom < windowBottom) {
+       $(this).animate({'margin-left':'22%'},500);
+     }
+   });
+
+
+ }
+ function fadeleft2() {
+    $('.fade-left').each(function() {
+      /* Check the location of each desired element */
+      var objectTop = $(this).offset().top;
+      var windowBottom = $(window).scrollTop()+ $(window).innerHeight();
+
+      /* If the object is completely visible in the window, fade it in */
+      if (objectTop > windowBottom) {
+        $(this).animate({'margin-left':'22%'},500);
+      }
+    });
+
+
+  }
+  function faderight2(){
+     $('.fade-right').each(function() {
+       /* Check the location of each desired element */
+       var objectTop = $(this).offset().top;
+       var windowBottom = $(window).scrollTop()+ $(window).innerHeight();
+
+       /* If the object is completely visible in the window, fade it in */
+       if (objectTop > windowBottom) {
+         $(this).animate({'margin-right':'22%'},500);
+       }
+     });
+   }
+function faderight(){
+   $('.fade-right').each(function() {
+     /* Check the location of each desired element */
+     var objectBottom = $(this).offset().top + $(this).outerHeight();
+     var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+
+     /* If the object is completely visible in the window, fade it in */
+     if (objectBottom < windowBottom) {
+       $(this).animate({'margin-right':'22%'},500);
+     }
+   });
+ }
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
@@ -31,7 +86,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 // Google Maps Scripts
 // When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
+//google.maps.event.addDomListener(window, 'load', init);
 
 function init() {
     // Basic options for a simple Google Map
@@ -48,7 +103,7 @@ function init() {
         scrollwheel: false,
         draggable: false,
 
-        // How you would like to style the map. 
+        // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
         styles: [{
             "featureType": "water",
@@ -160,7 +215,7 @@ function init() {
         }]
     };
 
-    // Get the HTML DOM element that will contain your map 
+    // Get the HTML DOM element that will contain your map
     // We are using a div with id="map" seen below in the <body>
     var mapElement = document.getElementById('map');
 

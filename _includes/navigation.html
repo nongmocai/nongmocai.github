@@ -10,8 +10,9 @@
             {% else %}
               <a class="navbar-brand page-scroll" href="{{site.baseurl}}/index.html#page-top">
             {% endif %}
-            <div>{% if site.black-favicon %}<img src="{{site.baseurl}}{{ site.black-favicon }}" alt="">  {% endif %}{{ site.title }}</div>
+            <div>{% if site.black-favicon %}<img src="{{site.baseurl}}{{ site.black-favicon }}" alt="">  {% endif %}</div>
           </a>
+          <div class="navbar-brand page-scroll">{{ site.title }}</div>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">

@@ -14,12 +14,29 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: $dark;
-    background: -webkit-radial-gradient(#EFEFEF, #8E8E8E); /* Safari 5.1 - 6.0 */
-    background: -o-radial-gradient(#EFEFEF, #8E8E8E); /* Opera 11.6 - 12.0 */
-    background: -moz-radial-gradient(#EFEFEF, #8E8E8E); /* Firefox 3.6 - 15 */
-    background: radial-gradient(#EFEFEF, #8E8E8E); /* 标准的语法（必须放在最后） */
-    background-attachment:fixed;
+    color: #7a7a7a;
+
+}
+
+.section{
+  min-height: 380px;
+  padding-top: 5%;
+}
+
+.container{
+  width:auto;
+}
+
+#about{
+  background-color: #86cccc;
+  color:#FFF;
+
+}
+
+#about h1{
+  background-color: #86cccc;
+  color:#FFF;
+
 }
 
 .works {
@@ -39,8 +56,16 @@ html {
     height: 100%;
 }
 
+.summary {
+  font-size: 32px;
+}
 
-h1,
+h1{
+  font-size: 400%;
+  font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+  color: $dark;
+}
+
 h2,
 h3,
 h4,
@@ -48,9 +73,10 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
+    color: $dark;
 }
 
 p {
@@ -68,14 +94,14 @@ p {
 }
 
 a {
-    color: #389014;
+    color: #337ab7;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     &:hover,
     &:focus {
     text-decoration: none;
-        color: darken(#389014, 10%);
+        color: darken(#337ab7, 10%);
     }
 }
 
@@ -95,7 +121,7 @@ a {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($light, 0.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: $dark;
     .navbar-brand {
         font-weight: 700;
@@ -119,7 +145,7 @@ a {
         li {
             &.active {
             outline: nonte;
-			background-color: rgba($light, 0.3);
+			      background-color: rgba($light, 0.3);
         }
             a {
                 -webkit-transition: background .3s ease-in-out;
@@ -138,22 +164,24 @@ a {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+      //  padding: 20px 0;
         border-bottom: none;
         letter-spacing: 1px;
         background: transparent;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+        padding-left: 8%;
+        padding-right: 8%;
     }
 
     .top-nav-collapse {
-        padding: 0;
-        background-color: $dark;
+  //      padding: 0;
+        background-color: #FFFFFF;
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba($light, 0.3);
+        border-bottom: 1px solid rgba(#FFFFFF, 0.3);
     }
 }
 
@@ -183,6 +211,40 @@ a {
     }
 }
 
+.history-left {
+  background-image: url(/img/x-home-5-bg-timeline-gray-left-comp.png);
+  background-color: transparent;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.history-right {
+  margin-top: 30px;
+  background-image: url(/img/x-home-5-bg-timeline-gray-right-comp.png);
+  background-color: transparent;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.history-gap {
+  margin-top:8%;
+
+}
+.fade-left {
+  margin-left: 0%;
+  opacity: 1;
+  width: 75%;
+}
+.fade-right {
+  margin-right: 0%;
+  opacity: 1;
+  width: 75%;
+}
 @media(min-width:767px) {
     .intro {
         height: 100%;
@@ -272,9 +334,6 @@ a {
     }
 }
 
-.content-section {
-    padding-top: 100px;
-}
 
 .download-section {
     width: 100%;
@@ -296,7 +355,7 @@ a {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 50px;
     }
 
     .download-section {
@@ -311,7 +370,7 @@ a {
 
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -394,6 +453,35 @@ footer {
     text-shadow: none;
     background: #fcfcfc;
     background: rgba($light, 0.2);
+}
+
+.ul-icons-h1{
+  margin-left:40px;
+}
+
+.ul-icons {
+  list-style: none;
+  text-indent: -0.85em;
+}
+
+.li-icons {
+  text-align: left;
+  font-size: 20px;
+  //list-style-image:url(/img/person.png);
+}
+
+.li-icons:before{
+   content: '';
+   display: inline-block;
+   height: 20px;
+   width: 20px;
+   background-image: url(/img/user.png);
+}
+
+img {
+  clear: both;
+  display: block;
+  margin:auto;
 }
 
 img::selection {
