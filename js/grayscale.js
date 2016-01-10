@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ var loaded = false;
+
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
@@ -17,6 +19,10 @@ $(window).scroll(function() {
 });
 
 function progressbar() {
+
+    if (loaded) {
+        return;
+    }
      /* Check the location of each desired element */
      var objectBottom = $('#traits').offset().top + $('#traits').outerHeight();
      var windowBottom = $(window).scrollTop() + $(window).innerHeight();
@@ -29,15 +35,9 @@ function progressbar() {
        $('#ENGLISH').animate({'width':'95%'},300);
        $('#PHOTOSHOP').animate({'width':'85%'},300);
        $('#CS').animate({'width':'70%'},300);
-     }else{
-       $('#MS').animate({'width':'0%'},100);
-       $('#ILLUSTRATOR').animate({'width':'0%'},100);
-       $('#HTML').animate({'width':'0%'},100);
-       $('#ENGLISH').animate({'width':'0%'},100);
-       $('#PHOTOSHOP').animate({'width':'0%'},100);
-       $('#CS').animate({'width':'0%'},100);
+       loaded = true;
      }
-
+     
 
  }
 
