@@ -23,38 +23,13 @@ function fadeleft() {
 
      /* If the object is completely visible in the window, fade it in */
      if (objectBottom < windowBottom) {
-       $(this).animate({'margin-left':'22%'},500);
+       $(this).animate({'opacity':'1','margin-left':'22%'},500);
      }
    });
 
 
  }
- function fadeleft2() {
-    $('.fade-left').each(function() {
-      /* Check the location of each desired element */
-      var objectTop = $(this).offset().top;
-      var windowBottom = $(window).scrollTop()+ $(window).innerHeight();
 
-      /* If the object is completely visible in the window, fade it in */
-      if (objectTop > windowBottom) {
-        $(this).animate({'margin-left':'22%'},500);
-      }
-    });
-
-
-  }
-  function faderight2(){
-     $('.fade-right').each(function() {
-       /* Check the location of each desired element */
-       var objectTop = $(this).offset().top;
-       var windowBottom = $(window).scrollTop()+ $(window).innerHeight();
-
-       /* If the object is completely visible in the window, fade it in */
-       if (objectTop > windowBottom) {
-         $(this).animate({'margin-right':'22%'},500);
-       }
-     });
-   }
 function faderight(){
    $('.fade-right').each(function() {
      /* Check the location of each desired element */
@@ -63,7 +38,7 @@ function faderight(){
 
      /* If the object is completely visible in the window, fade it in */
      if (objectBottom < windowBottom) {
-       $(this).animate({'margin-right':'22%'},500);
+       $(this).animate({'opacity':'1','margin-right':'22%'},500);
      }
    });
  }
