@@ -93,7 +93,7 @@ pages_list:
   Home: 'home'
   About: 'about'
   History: 'history'
-  Works: 'works'
+  Traits: 'traits'
   Contact: 'contact'
 
 # Pagination path

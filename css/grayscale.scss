@@ -34,9 +34,19 @@ body {
 }
 
 #about h1{
-  background-color: #86cccc;
   color:#FFF;
+}
 
+#traits {
+   margin-top: 80px;
+   background-color: #96ED89; 
+   padding-bottom: 60px;
+}
+
+#traits h1{
+   background-color: #96ED89; 
+   font-size:80px;
+   margin-bottom: 30px;
 }
 
 .works {
@@ -71,7 +81,6 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
     text-transform: uppercase;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;

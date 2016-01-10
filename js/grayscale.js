@@ -13,7 +13,34 @@ $(window).scroll(function() {
     }
     fadeleft();
     faderight();
+    progressbar();
 });
+
+function progressbar() {
+     /* Check the location of each desired element */
+     var objectBottom = $('#traits').offset().top + $('#traits').outerHeight();
+     var windowBottom = $(window).scrollTop() + $(window).innerHeight();
+
+     /* If the object is completely visible in the window, fade it in */
+     if (objectBottom < windowBottom) {
+       $('#MS').animate({'width':'90%'},300);
+       $('#ILLUSTRATOR').animate({'width':'80%'},300);
+       $('#HTML').animate({'width':'70%'},300);
+       $('#ENGLISH').animate({'width':'95%'},300);
+       $('#PHOTOSHOP').animate({'width':'85%'},300);
+       $('#CS').animate({'width':'70%'},300);
+     }else{
+       $('#MS').animate({'width':'0%'},100);
+       $('#ILLUSTRATOR').animate({'width':'0%'},100);
+       $('#HTML').animate({'width':'0%'},100);
+       $('#ENGLISH').animate({'width':'0%'},100);
+       $('#PHOTOSHOP').animate({'width':'0%'},100);
+       $('#CS').animate({'width':'0%'},100);
+     }
+
+
+ }
+
 
 function fadeleft() {
    $('.fade-left').each(function() {
