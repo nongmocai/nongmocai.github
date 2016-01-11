@@ -37,7 +37,7 @@ function progressbar() {
        $('#CS').animate({'width':'70%'},300);
        loaded = true;
      }
-     
+
 
  }
 
@@ -49,8 +49,12 @@ function fadeleft() {
      var windowBottom = $(window).scrollTop() + $(window).innerHeight();
 
      /* If the object is completely visible in the window, fade it in */
-     if (objectBottom < windowBottom) {
-       $(this).animate({'opacity':'1','margin-left':'22%'},500);
+     if (objectBottom < windowBottom ) {
+       if ($(window).width() > 1200 ){
+         $(this).animate({'opacity':'1','margin-left':'22%'},500);
+       }else{
+         $(this).removeAttr('style');
+       }
      }
    });
 
@@ -65,7 +69,11 @@ function faderight(){
 
      /* If the object is completely visible in the window, fade it in */
      if (objectBottom < windowBottom) {
-       $(this).animate({'opacity':'1','margin-right':'22%'},500);
+       if ($(window).width() > 1200 ){
+         $(this).animate({'opacity':'1','margin-right':'22%'},500);
+       }else{
+         $(this).removeAttr('style');
+       }
      }
    });
  }

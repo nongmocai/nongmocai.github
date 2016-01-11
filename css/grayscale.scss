@@ -39,12 +39,12 @@ body {
 
 #traits {
    margin-top: 80px;
-   background-color: #96ED89; 
+   background-color: #96ED89;
    padding-bottom: 60px;
 }
 
 #traits h1{
-   background-color: #96ED89; 
+   background-color: #96ED89;
    font-size:80px;
    margin-bottom: 30px;
 }
@@ -219,41 +219,72 @@ a {
         }
     }
 }
+@media(min-width:1200px){
+  .history-left {
+    background-image: url(/img/x-home-5-bg-timeline-gray-left-comp.png);
+    background-color: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+@media(min-width:1200px){
+  .history-right {
+    margin-top: 30px;
+    background-image: url(/img/x-home-5-bg-timeline-gray-right-comp.png);
+    background-color: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .fade-left {
+    margin-left: 0%;
+    opacity: 0;
+    width: 75%;
+  }
+  .fade-right {
+    margin-right: 0%;
+    opacity: 0;
+    width: 75%;
+  }
 
-.history-left {
-  background-image: url(/img/x-home-5-bg-timeline-gray-left-comp.png);
-  background-color: transparent;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+.text-left-history {
+  text-align: left;
+}
+.text-right-history {
+  text-align: right;
 }
 
-.history-right {
-  margin-top: 30px;
-  background-image: url(/img/x-home-5-bg-timeline-gray-right-comp.png);
-  background-color: transparent;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+@media(max-width:1200px) {
+
+  .text-right-history {
+    text-align: center;
+  }
+  .text-left-history {
+    text-align: center;
+  }
 }
+
 .history-gap {
   margin-top:8%;
 
 }
+
 .fade-left {
-  margin-left: 0%;
-  opacity: 0;
   width: 75%;
+  margin: auto;
 }
+
 .fade-right {
-  margin-right: 0%;
-  opacity: 0;
   width: 75%;
+  margin: auto;
 }
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
@@ -362,10 +393,13 @@ a {
     margin-top: 100px;
 }
 
+.content-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 @media(min-width:767px) {
-    .content-section {
-        padding-top: 50px;
-    }
+
 
     .download-section {
         padding: 100px 0;
