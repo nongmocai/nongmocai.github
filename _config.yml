@@ -1,0 +1,29 @@
+# Site settings
+title: NongMo
+email: nongmocai0514@gmail.com
+description: 
+baseurl: ""
+url: ""
+
+author:
+  name     : 'nongmo cai'
+  email    : nongmocai0514@gmail.com
+  url      : http://nongmocai.github.io
+  facebook : http://facebook.com/fernando.dev
+  twitter  : http://twitter.com/nandomoreirame
+
+github: https://github.com/nongmocai
+disqus_shortname: "nongmocai"
+google_analytics: UA-52446115-1
+
+paginate: 2
+comments: true
+paginate_path: "/page/:num"
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Build settings
+markdown  : kramdown
+permalink : /:title/

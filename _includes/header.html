@@ -1,0 +1,40 @@
+<header class="header">
+
+  <!-- Navigation -->
+<nav class="navbar navbar-custom" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+          <div class="navbar-brand page-scroll">{{ site.title }}</div>
+        </div>
+        <div id="page-top"></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                {% if page.title == "Home" %}
+                  <li>
+                      <a href="#page-top"  >Portfolio</a>
+                  </li>
+
+                  <li>
+                      <a href="#about">About</a>
+                  </li>
+                {% else %}
+                <li>
+                    <a href="{{ site.baseurl }}/index.html#page-top"  >Portfolio</a>
+                </li>
+
+                <li>
+                    <a href="{{ site.baseurl }}/index.html#about">About</a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+</header>

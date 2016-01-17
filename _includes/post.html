@@ -1,0 +1,18 @@
+<article class="post card container">
+  <div cleas="row">
+    <div class="col-lg-4">
+      <img class="img-responsive" src="{{ post.cover }}" alt="parts" />
+    </div>
+    <div class="col-lg-8">
+
+      <h1 class="post-header">{{ post.title }}</h1>
+      <div class="post-content">
+        {{ post.content | strip_html | truncatewords: 30 }}
+        <p class="post-link">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">Read more &raquo;</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</article>
