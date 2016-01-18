@@ -5,7 +5,7 @@ title: "You-tel for MBC2013"
 category: works
 cover: '/images/youtel/cover.png'
 date:   2015-01-02 03:00:08
-introduction: "This was a demo for the 2013MCW in Barcelona to showcase the capabilities of Ericsson’s software via a fake product."
+introduction: "A demo for the MWC2013"
 ---
 
 This was a demo for the 2013MCW in Barcelona to showcase the capabilities of Ericsson’s software via a fake product.

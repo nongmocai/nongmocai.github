@@ -6,7 +6,7 @@ category: works
 date:   2015-09-20 03:00:08
 cover: '/images/selfcare/Self-careIcon.png'
 comments: true
-introduction: "The goal of this project was to create a self-care application."
+introduction: "Acess your mobile account anywhere anytime."
 ---
 In 2014 – 2015, the company worked towards delivering an out-of-the-box Self-Care service for global Operator customers. This is the process of how I created the UX design for my part on the Self-Care service.
 
