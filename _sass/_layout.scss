@@ -78,10 +78,6 @@
     color: $white-color;
   }
 
-  @include media-query($on-phone) {
-    text-align: center;
-  }
-
   .txt-center {
     color: $white-color;
     margin-top: 160px;
