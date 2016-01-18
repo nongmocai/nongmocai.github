@@ -1,9 +1,9 @@
 ---
 layout: post
 section-type: post
-title: "User Journey Map"
+title: "WIFI-calling"
 category: works
-cover: '/images/SES.png'
+cover: '/images/usermap/SES.png'
 comments: true
 date:   2015-08-04 03:00:08
 introduction: "Ericsson offers an end-to-end Wi-Fi calling solution for smartphones and multiple devices."
@@ -53,7 +53,7 @@ The personas included:
 * 2nd level customer-care Engineer
 *	Design Maintenance Engineer
 
-<img class="img-responsive" src="/img/posts/usermap/user-map.png" alt="parts">
+<img class="img-responsive" src="/images/usermap/user-map.png" alt="parts">
 
 ### UX Assessment
 
@@ -69,7 +69,7 @@ The personas included:
 
     Creating the navigation map helped me form a broader view of the system and how the target users performed the tasks one by one; it also ensured a more cohesive design. As it was linked to the pain points this map inspired me on the potential design opportunities.
 
-    <img class="img-responsive" src="/img/posts/usermap/navi-map.png" alt="parts">
+    <img class="img-responsive" src="/images/usermap/navi-map.png" alt="parts">
 
 4. **Heuristic Evaluation**
 
@@ -87,7 +87,7 @@ The personas included:
 
     Developers from other team and projects were recruited to complete the key tasks in the 30 minutes usability testing. Observing how the users used the tool was an effective way of confirming the existing findings and discovering new problems that I had not instantly been aware of.
 
-    <img class="img-responsive" src="/img/posts/usermap/ub-test.jpg" alt="parts">
+    <img class="img-responsive" src="/images/usermap/ub-test.jpg" alt="parts">
 
 6. **UX improvements and Suggestions**
 
@@ -96,6 +96,8 @@ The personas included:
 7. **Sketches and High Fidelity Mock-ups**
 
     Before going into designing with the computer, I opted to sketch my design and thoughts on the paper. This helped me to quickly brainstorm for different solutions instead of just focusing on one idea.
+
+    <img class="img-responsive" src="/images/usermap/0117_1.jpg" alt="parts">
 
 8. **UX Assessment and Improvements Report**
 

@@ -4,9 +4,9 @@ section-type: post
 title: "Self-Care Application"
 category: works
 date:   2015-08-04 03:00:08
-cover: '/images/Self-careIcon.png'
+cover: '/images/selfcare/Self-careIcon.png'
 comments: true
-introduction: "The goal of this project was to create a self-care application with Ericsson APIs with good User Experience, the first delivery of the application will enable the user to view critical information about their mobile account."
+introduction: "The goal of this project was to create a self-care application."
 ---
 In 2014 – 2015, the company worked towards delivering an out-of-the-box Self-Care service for global Operator customers. This is the process of how I created the UX design for my part on the Self-Care service.
 
@@ -26,8 +26,6 @@ In this process, I worked closely with Agile product owner, the Chief UX designe
 
 Meetings with the key stakeholders helped us to better gain alignment on the features that we’re developing. During these meetings we would present the discoveries in the competitive analysis and propose new functionality toward the Self-Care service that we are building.
 
-<img class="img-responsive" src="/img/posts/selfcare/collaboration.png" alt="picture">
-
 We worked in an Agile environment where certain features would be delivered within each Sprint, which was every three week. Within this process we emphasized rapid sketching, wireframing and design mock-ups. This had created early team-wide alignment, sparked tons of ideas, and solved problems efficiently when there were problems with the development.
 
 ### Persona
@@ -38,16 +36,53 @@ The company had a wide set of persona that’s been created based on global wide
 
 As a starting point we did intense research for different existing Operator’s Self-Care application, then collect the screenshots and analyze the features that they have. The key point was to not only find out what the important features were but also come up with ideas on what additional features would be good from the aspect of User Experience. That’s also when the previous research on the Operator’s site came into play.
 
+<img class="img-responsive" src="/images/selfcare/0117_2.jpg" alt="picture">
+
 ### Designing
 
 Unfortunately not all the design proposed in the early stage was implemented because it was considered nice to have and was consequently de-prioritized comparing with the backend development tasks, and could not make time into the current delivery.
 
 Early sketches exploring the design for different use cases.
 
+<img class="img-responsive" src="/images/selfcare/skeleton.jpg" alt="picture">
 
 Before the final delivery, I also created a demo video that guided the Integration Engineers through the process of the design.
+
 The following design principles were used in the designing process.
+
 In the original design there was a sidebar menu. But the popular hamburger menu actually hides the information, and every time the user wants to go to a different page he has to open the side menu first. Thus in the later version I removed the hamburger menu, and placed tabs on the bottom for quick access; the advanced/ secondary features were placed within the “Others” tab. Having the tabs on the bottom would also be easier to click on no matter how big the screen size was.
+
+
+<div class="row text-center">
+  <div class="col-lg-4">
+      <img class="img-responsive" src="/images/selfcare/1.png" alt="picture">
+  </div>
+  <div class="col-lg-4">
+      <img class="img-responsive" src="/images/selfcare/2.png" alt="picture">
+  </div>
+  <div class="col-lg-4">
+      <img class="img-responsive" src="/images/selfcare/3.png" alt="picture">
+  </div>
+</div>
+
+<div class="row text-center">
+  <div class="col-lg-4">
+      <img class="img-responsive" src="/images/selfcare/4.png" alt="picture">
+  </div>
+  <div class="col-lg-4">
+      <img class="img-responsive" src="/images/selfcare/5.png" alt="picture">
+  </div>
+  <div class="col-lg-4">
+      <img class="img-responsive" src="/images/selfcare/6.png" alt="picture">
+  </div>
+</div>
+
+<div class="row text-center">
+  <div class="col-lg-4">
+      <img class="img-responsive" src="/images/selfcare/7.png" alt="picture">
+  </div>
+</div>
+
 
 - Giving forecasts on usage/bill
 

@@ -11,6 +11,9 @@ layout: compress
     <main class="main">
       {% include header.html %}
       {{ content }}
+      {% if page.title == "Home" %}
+        {% include about.html %}
+      {% endif %}
       {% include footer.html %}
     </main>
   </body>
