@@ -5,7 +5,7 @@ title: "WIFI-calling"
 category: works
 cover: '/images/usermap/SES.png'
 comments: true
-date:   2015-08-04 03:00:08
+date:   2015-12-12 03:00:08
 introduction: "Ericsson offers an end-to-end Wi-Fi calling solution for smartphones and multiple devices."
 ---
 ### Project and Problem

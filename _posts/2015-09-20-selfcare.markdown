@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: "Self-Care Application"
 category: works
-date:   2015-08-04 03:00:08
+date:   2015-09-20 03:00:08
 cover: '/images/selfcare/Self-careIcon.png'
 comments: true
 introduction: "The goal of this project was to create a self-care application."
