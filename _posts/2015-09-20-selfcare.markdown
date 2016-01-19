@@ -54,11 +54,6 @@ Before the final delivery, I also created a demo video that guided the Integrati
 
 ### Design decisions
 
-The following design principles were used in the designing process.
-
-In the original design there was a sidebar menu. But the popular hamburger menu actually hides the information, and every time the user wants to go to a different page he has to open the side menu first. Thus in the later version I removed the hamburger menu, and placed tabs on the bottom for a quick access; the advanced/ secondary features were placed within the “Others” tab. Having the tabs on the bottom would also be easier to click on no matter how big the screen size was.
-
-
 <div class="row text-center">
   <div class="col-lg-4">
       <img class="img-responsive" src="/images/selfcare/1.png" alt="picture">
@@ -88,6 +83,10 @@ In the original design there was a sidebar menu. But the popular hamburger menu 
       <img class="img-responsive" src="/images/selfcare/7.png" alt="picture">
   </div>
 </div>
+
+The following design principles were used in the designing process.
+
+In the original design there was a sidebar menu. But the popular hamburger menu actually hides the information, and every time the user wants to go to a different page he has to open the side menu first. Thus in the later version I removed the hamburger menu, and placed tabs on the bottom for a quick access; the advanced/ secondary features were placed within the “Others” tab. Having the tabs on the bottom would also be easier to click on no matter how big the screen size was.
 
 
 - Giving forecasts on usage/bill
