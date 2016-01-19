@@ -284,8 +284,17 @@
     max-width: 99%;
     vertical-align: middle;
   }
+  .persona {
+    max-width: 50%;
+  }
 }
 
+@media (min-width: 768px){
+  .persona {
+    max-width: 70%;
+  }
+
+}
 
 
 .post-img {
