@@ -65,6 +65,7 @@ The personas included:
 
     We have conducted user interviews from different sites of our company globally, and created a wide range of persona which is stored in the persona library after the interviews.  I adopted the existing personas for this project.  Through the process, I get to understand the persona’s needs and pinpoints, which will validate my future design.
 
+    <img class="img-responsive persona" src="/images/usermap/persona.jpg" alt="parts">
 
 2. **Key Tasks**
 
