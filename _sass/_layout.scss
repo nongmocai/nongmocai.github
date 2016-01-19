@@ -143,6 +143,7 @@
         font-weight: 900;
             &:focus {
                 outline: none;
+                text-decoration:none;
             }
         .navbar-toggle {
             padding: 4px 6px;
@@ -151,12 +152,17 @@
                 &:focus,
                 &:active {
                     outline: none;
+                    text-decoration:none;
                 }
         }
     }
     a {
         color: $dark-color;
         font-weight: 500;
+        &:active,
+        &:focus {
+          text-decoration:none;
+        }
 
     }
     .nav {
