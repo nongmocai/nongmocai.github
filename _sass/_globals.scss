@@ -72,7 +72,10 @@ p {
 
 img {
   display: block;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   vertical-align: middle;
   max-width: 80%;
 }
@@ -111,6 +114,7 @@ h2 {
 
 h3 {
   font-size: 3rem;
+  margin-top: 7rem;
 }
 
 h4 {
