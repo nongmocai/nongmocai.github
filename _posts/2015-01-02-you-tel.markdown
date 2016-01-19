@@ -4,17 +4,16 @@ section-type: post
 title: "You-tel for MBC2013"
 category: works
 cover: '/images/youtel/cover.png'
-date:   2015-09-27 03:00:08
-introduction: "This was a demo for the 2013MCW in Barcelona to showcase the capabilities of Ericsson’s software via a fake product.
-Throughout the process, I collaborated with an interaction designer, a visual designer, a demo manager and a team of engineers to deliver the final demo."
+date:   2015-01-02 03:00:08
+introduction: "A demo for the MWC2013"
 ---
-## You-tel(Ericsson)
-
-My role: Interaction/UI designer
-
 
 This was a demo for the 2013MCW in Barcelona to showcase the capabilities of Ericsson’s software via a fake product.
 Throughout the process, I collaborated with an interaction designer, a visual designer, a demo manager and a team of engineers to deliver the final demo.
+
+### My Role
+
+interaction/UI designer
 
 ### Changing design details based on status
 

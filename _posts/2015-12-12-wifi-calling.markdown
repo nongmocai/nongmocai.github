@@ -6,7 +6,7 @@ category: works
 cover: '/images/usermap/SES.png'
 comments: true
 date:   2015-12-12 03:00:08
-introduction: "Ericsson offers an end-to-end Wi-Fi calling solution for smartphones and multiple devices."
+introduction: "Redesigning the administration tool for the Wi-Fi calling project ."
 ---
 ### Project and Problem
 
@@ -61,9 +61,20 @@ The personas included:
 
     The company had a set of persona that’s been created based on global wide user-interviews and stored within the persona library, the personas for this project were part of the persona collection. To try and understand the users I am designing for, I adopted the existing personas for this project.
 
+    <img class="img-responsive" src="/images/usermap/persona.jpg" alt="parts">
+
 2. **Key Tasks**
 
     In a discussion with the Agile Product Owner (APO), we defined the key tasks on the administration tool, as well as when and how the relevant personas perform such tasks.
+
+    <div class="row text-center">
+      <div class="col-lg-6">
+          <img class="img-responsive" src="/images/usermap/keytask1.png" alt="picture">
+      </div>
+      <div class="col-lg-6">
+          <img class="img-responsive" src="/images/usermap/keytask2.png" alt="picture">
+      </div>
+    </div>
 
 3. **Navigation Map**
 
@@ -97,7 +108,10 @@ The personas included:
 
     Before going into designing with the computer, I opted to sketch my design and thoughts on the paper. This helped me to quickly brainstorm for different solutions instead of just focusing on one idea.
 
-    <img class="img-responsive" src="/images/usermap/0117_1.jpg" alt="parts">
+    <img class="img-responsive" src="/images/usermap/sketches4.jpg" alt="parts">
+
+
+
 
 8. **UX Assessment and Improvements Report**
 
