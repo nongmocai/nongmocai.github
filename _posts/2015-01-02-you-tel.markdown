@@ -8,18 +8,21 @@ date:   2015-01-02 03:00:08
 introduction: "A demo for the MWC2013"
 ---
 
-This was a demo for the 2013MCW in Barcelona to showcase the capabilities of Ericsson’s software via a fake product.
-Throughout the process, I collaborated with an interaction designer, a visual designer, a demo manager and a team of engineers to deliver the final demo.
+### Background
+
+This was a demo for the 2013MCW in Barcelona to showcase the capabilities of Ericsson’s software via an ad-hoc product.
+
+Throughout the process, I collaborated with another UX designer, a visual designer, a Product Owner and a team of engineers to deliver the final demo.
 
 ### My Role
 
-interaction/UI designer
+As the User Experience designer, I was responsible for designing the pages after the user had already logged in.
 
 ### Changing design details based on status
 
-The design details of the pages changes depending on the state of the network and also the state of the user (not logged in, logged in and premium user). This design needs to tell the story of an user using the app to enjoy high quility streaming experience。
+The design details of the pages change depending on the state of the network and also the state of the user (not logged in, logged in and premium user). This design needs to tell the story of a user using the app to enjoy high quality streaming experience.
 
-<img class="img-responsive" src="/images/youtel/design.png" alt="parts">
+<img class="img-responsive" src="/images/youtel/workflow.jpg" alt="parts">
 
 ### Sketch out the layouts
 
@@ -31,7 +34,33 @@ Once the concept was settled, it was the time to sketch out the rough process of
 
 The whole process was displayed in detailed wireframes created by the prototyping software – Balsamiq, pages included splash screens, home page, stat, video page, etc. The pages acted as a ground for the stakeholders to review the whole process in details, and to generate debates on how content should be organized.
 
-<img class="img-responsive" src="/images/youtel/wireframe.png" alt="parts">
+<img class="img-responsive" src="/images/youtel/1.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/2.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/3.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/4.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/5.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/6.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/7.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/8.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/9.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/10.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/11.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/12.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/13.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/14.png" alt="parts">
 
 ### Interaction specs
 
@@ -41,14 +70,22 @@ Again, I used Balsamiq to create the basic interaction flows between the linked 
 
 The design was to give the app a final look and feel to be shown at the demo.   
 
-<img class="img-responsive" src="/images/youtel/final1.png" alt="parts">
+<img class="img-responsive" src="/images/youtel/15.png" alt="parts">
 
-<img class="img-responsive" src="/images/youtel/final2.png" alt="parts">
+<img class="img-responsive" src="/images/youtel/16.png" alt="parts">
 
-<img class="img-responsive" src="/images/youtel/final3.png" alt="parts">
+<img class="img-responsive" src="/images/youtel/17.png" alt="parts">
 
-<img class="img-responsive" src="/images/youtel/final4.png" alt="parts">
+<img class="img-responsive" src="/images/youtel/18.png" alt="parts">
 
-<img class="img-responsive" src="/images/youtel/final5.png" alt="parts">
+<img class="img-responsive" src="/images/youtel/19.png" alt="parts">
 
-<img class="img-responsive" src="/images/youtel/final6.png" alt="parts">
+<img class="img-responsive" src="/images/youtel/20.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/21.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/22.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/23.png" alt="parts">
+
+<img class="img-responsive" src="/images/youtel/24.png" alt="parts">

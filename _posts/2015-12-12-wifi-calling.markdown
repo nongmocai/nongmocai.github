@@ -14,14 +14,15 @@ Ericsson offers an end-to-end Wi-Fi calling solution for smartphones and multipl
 
 The current Administration tool for managing Wi-Fi calling is quite out-of-date, calling for a User Experience assessment and improvement suggestion. This is the story of how I performed the User Experience assessment and provided design solutions to the problems discovered.
 
-To comply with the confidentiality agreements I obfuscated the confidential information in this case stud., but I will talk about my involvement in the process and how I have taken the accumulated knowledge within the process to create a  design solution.
+*To comply with the confidentiality agreements I obfuscated the confidential information in this case stud., but I will talk about my involvement in the process and how I have taken the accumulated knowledge within the process to create a design solution.*
 
 
 ### My Role
 
 As the dedicated User Experience designer for the SES product, I am responsible for the following aspects:
 
-User journey map •  navigation map •  heuristic evaluation  •  usability test •  sketches •  high fidelity mock-ups •  assessment report.
+User journey map • navigation map • heuristic evaluation • usability test • sketches • high fidelity mock-ups • assessment report
+
 
 ### Collaboration
 

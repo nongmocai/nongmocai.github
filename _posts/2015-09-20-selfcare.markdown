@@ -8,39 +8,43 @@ cover: '/images/selfcare/Self-careIcon.png'
 comments: true
 introduction: "Acess your mobile account anywhere anytime."
 ---
-In 2014 – 2015, the company worked towards delivering an out-of-the-box Self-Care service for global Operator customers. This is the process of how I created the UX design for my part on the Self-Care service.
 
-The major requirement was to create a web Self-Care that empowers subscribers to control and personalize services anywhere, anytime.
+### Project and Problem
 
-*To comply with the confidentiality agreements I will not show the final work I did for the customer, but I will talk about my involvement in the process and I have taken the accumulated knowledge within the process to create a reinterpretation of the Self-Care service.*
+In 2014 – 2015, the company worked towards the delivering of a Self-Care service for Operator customers. This is the process of how I created the UX design for the Self-Care service.
+
+The major requirement was to create a web Self-Care that empowers Operator’s subscribers to access and control their services anywhere, anytime.
+
+*To comply with the confidentiality agreements I will not show the final work I did for the customer, but I I have taken the accumulated knowledge within the process to create a reinterpretation of the Self-Care service.*
+
 
 ### My Role
 
-The requirements for the mobile web Self-Care service were divided between the Chief UX designer and I. For my tasks, I conducted the following work:
+The requirements for the mobile web Self-Care service were divided between the Chief UX designer and me. For my tasks, I conducted the following work:
 
-competitive analysis, sketches, design mock-ups, demo video
+• Competitive analysis •  sketches •  design mock-ups •  demo video
 
 ### Collaboration
 
 In this process, I worked closely with Agile product owner, the Chief UX designer and teams of remote/In-house developers to ensure the design and interaction was implemented with good User Experience.
 
-Meetings with the key stakeholders helped us to better gain alignment on the features that we’re developing. During these meetings we would present the discoveries in the competitive analysis and propose new functionality toward the Self-Care service that we are building.
+Meetings with the key stakeholders helped us to better gain an alignment on the features that we’re developing. During the meetings we would present the discoveries in the competitive analysis and propose new functionality toward the Self-Care service that we are building.
 
-We worked in an Agile environment where certain features would be delivered within each Sprint, which was every three week. Within this process we emphasized rapid sketching, wireframing and design mock-ups. This had created early team-wide alignment, sparked tons of ideas, and solved problems efficiently when there were problems with the development.
+We worked under an Agile environment where certain features would be delivered every sprint (three weeks). Within this process we emphasized rapid sketching, wireframing and design mock-ups. This had created early team-wide alignment, sparked tons of ideas, and solved problems efficiently when there were problems with the development.
 
 ### Persona
 
-The company had a wide set of persona that’s been created based on global wide user-interviews and stored within the persona library; to try and understand the users I am designing for, I adopted the existing personas for this project, as well as some extra online research on Operator’s forums to gain additional information about the users.
+We have conducted user interviews from different sites of our company globally, and created a wide range of persona which is stored in the persona library after the interviews.  I adopted the existing personas for this project, as well as some extra online research on Operator’s forums to gain additional information about the users. Through the process, I get to understand the users better, which will validate my future design.
 
 ### Competitive Analysis
 
-As a starting point we did intense research for different existing Operator’s Self-Care application, then collect the screenshots and analyze the features that they have. The key point was to not only find out what the important features were but also come up with ideas on what additional features would be good from the aspect of User Experience. That’s also when the previous research on the Operator’s site came into play.
+As a starting point we did an intense research on different Operator’s Self-Care applications, and then collected the screenshots and analyzed the features that they have. The key point was to not only find out what the important features were but also come up with ideas on what additional features would be good from the aspect of User Experience. That’s also when the previous research on the Operator’s site came into play.
 
 <img class="img-responsive" src="/images/selfcare/0117_2.jpg" alt="picture">
 
 ### Designing
 
-Unfortunately not all the design proposed in the early stage was implemented because it was considered nice to have and was consequently de-prioritized comparing with the backend development tasks, and could not make time into the current delivery.
+Unfortunately not all the design proposed in the early stage was implemented because it was considered nice to have and was consequently de-prioritized compared with the backend development tasks, and could not be squeezed into the schedule of the current delivery.
 
 Early sketches exploring the design for different use cases.
 
@@ -48,9 +52,11 @@ Early sketches exploring the design for different use cases.
 
 Before the final delivery, I also created a demo video that guided the Integration Engineers through the process of the design.
 
+### Design decisions
+
 The following design principles were used in the designing process.
 
-In the original design there was a sidebar menu. But the popular hamburger menu actually hides the information, and every time the user wants to go to a different page he has to open the side menu first. Thus in the later version I removed the hamburger menu, and placed tabs on the bottom for quick access; the advanced/ secondary features were placed within the “Others” tab. Having the tabs on the bottom would also be easier to click on no matter how big the screen size was.
+In the original design there was a sidebar menu. But the popular hamburger menu actually hides the information, and every time the user wants to go to a different page he has to open the side menu first. Thus in the later version I removed the hamburger menu, and placed tabs on the bottom for a quick access; the advanced/ secondary features were placed within the “Others” tab. Having the tabs on the bottom would also be easier to click on no matter how big the screen size was.
 
 
 <div class="row text-center">
@@ -86,11 +92,14 @@ In the original design there was a sidebar menu. But the popular hamburger menu 
 
 - Giving forecasts on usage/bill
 
-We wanted to prompt users to top up their accounts immediately when their usage is low or a bill is due soon, to avoid the sudden withdraw of services and late fees. Giving this kind of information will let the user gain a sense of control while using the app.
+    We wanted to prompt users to top up their accounts immediately when their usage is low or a bill is due soon, to avoid the sudden withdrawal of services and late fees. Being informed of this, the user gains a sense of control while using the app.
 
-Indication of Consumption
-For the overview picture, we wanted the user to get a feeling of the spending within a glance. So I used the balls to indicate how much usage is left.
+- Indication of Consumption
 
-In the Usage page, there is additional information on how much usage were consumed on the current day. This would help the user to decide what were the average consumption per day, and if it’s necessary to switch to a more appropriate plan.
+    For the overview picture, we wanted the user to get a feeling of the spending within a glance. So I used the balls to indicate how much usage is left.
 
-Since this Self-Care service supports one-click buy, I wanted to make sure that the user wouldn’t accidently press the buy button or have something in their bag to press on it. The swipe to pay button is designed to prevent these type of problem.
+    In the Usage page, there is additional information on how much usage is consumed on the current day. This would help the user to decide what is the average consumption per day, and whether it is necessary to switch to a more appropriate plan.
+
+- Prevent accidental purchase
+
+    Since this Self-Care service supports one-click buy, I wanted to make sure that the user wouldn’t accidently press the buy button or have something in their bag to press on it. The swipe to pay button is designed to prevent these type of problem.
