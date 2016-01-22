@@ -4,7 +4,7 @@ section-type: post
 title: "self-care Application"
 category: works
 date:   2015-09-20 03:00:08
-cover: '/images/selfcare/self-careIcon.png'
+cover: '/images/selfcare/Self-careIcon.png'
 comments: true
 introduction: "Acess your mobile account anywhere anytime."
 ---
