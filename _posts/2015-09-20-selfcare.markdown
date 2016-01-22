@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: "self-care Application"
+title: "Self-care Application"
 category: works
 date:   2015-09-20 03:00:08
 cover: '/images/selfcare/Self-careIcon.png'
